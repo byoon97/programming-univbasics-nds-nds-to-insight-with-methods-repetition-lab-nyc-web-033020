@@ -29,7 +29,8 @@ def list_of_directors(source)
   i = 0
   while i < source.length do
     names = source[i][:name]
-    newArr << names i += 1
+    newArr << names
+    i += 1
   end
 
   newArr
